@@ -1,3 +1,4 @@
+package lesson1.Variable;
 public class Variable {
 	public static void main(String[] args) {
 		byte CpuAmount = 4;
