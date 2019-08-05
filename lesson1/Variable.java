@@ -1,22 +1,23 @@
 package lesson1.Variable;
+
 public class Variable {
 	public static void main(String[] args) {
-		byte CpuAmount = 4;
-		short RamGb = 16;
-		int RamAmount = 4;
-		long HddCapacity = 500105736192L;
+		byte cpuAmount = 4;
+		short ramGb = 16;
+		int ramAmount = 4;
+		long hddCapacity = 500105736192L;
 		float frequency = 2.60f;
 		double price = 1200.30;
-		char CpuMaker = 'i';
+		char cpuMaker = 'i';
 		boolean good = true;
 
-		System.out.println(CpuAmount);
-		System.out.println(RamGb);
-		System.out.println(RamAmount);
-		System.out.println(HddCapacity);
+		System.out.println(cpuAmount);
+		System.out.println(ramGb);
+		System.out.println(ramAmount);
+		System.out.println(hddCapacity);
 		System.out.println(frequency);
 		System.out.println(price);
-		System.out.println(CpuMaker);
+		System.out.println(cpuMaker);
 		System.out.println(good);
 	}
 }
